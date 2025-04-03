@@ -15,11 +15,11 @@ This repository contains my implementation for Assignment 1 of AIML331. The assi
 
 ## Requirements
 - Python 3.8+
-- NumPy, PIL, matplotlip libraries
+- NumPy - for all calculations, PIL - for image file handling, matplotlip - plotting histograms and displaying images
 
 ## Implementation Notes
 - I have used generative AI - ChatGPT for some visualisation and histogram calculations
-- The checkerboard processing uses a box filter for low-pass filtering
+- The checkerboard processing uses a gaussian filter for low-pass filtering
 - The implementation minimizes external library dependencies
 
 ## Report
